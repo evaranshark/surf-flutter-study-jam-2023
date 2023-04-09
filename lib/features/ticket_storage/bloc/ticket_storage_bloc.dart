@@ -20,7 +20,6 @@ class TicketStorageCubit extends Cubit<TicketStorageState> {
     TicketModel ticket = TicketModel(
       name: PdfNameResolver.getName(url),
       url: url,
-      type: TicketType.plane,
     );
     source.addTicket(ticket);
     load();

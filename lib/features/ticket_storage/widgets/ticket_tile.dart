@@ -9,12 +9,10 @@ import '../data/ticket_model.dart';
 import 'ticket_type_icon.dart';
 
 class TicketTile extends StatefulWidget {
-  const TicketTile(
-      {super.key, required this.title, required this.type, this.subtitle});
+  const TicketTile({super.key, required this.title, this.subtitle});
 
   final String title;
   final Widget? subtitle;
-  final TicketType type;
 
   @override
   State<TicketTile> createState() => _TicketTileState();
@@ -26,7 +24,7 @@ class _TicketTileState extends State<TicketTile> {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      leading: TicketTypeIcon(type: widget.type),
+      leading: TicketTypeIcon(),
       title: Text(
         widget.title,
         style: TextStyle(

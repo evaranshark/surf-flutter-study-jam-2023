@@ -88,8 +88,8 @@ class TicketStorageBody extends StatelessWidget {
                   return BlocProvider(
                     create: (context) => TicketDownloadBloc(ticketData.url),
                     child: TicketTile(
-                        title: ticketData.name,
-                        type: ticketData.type ?? TicketType.plane),
+                      title: ticketData.name,
+                    ),
                   );
                 },
               )

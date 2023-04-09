@@ -23,6 +23,4 @@
 # Ссылки на демонстрацию работы/скриншоты
 > Захват шёл с эмулятора, поэтому есть фризы и визуальные лаги
 
-<div class="row" align="center">
-  <img src="./docs/assets/result_captures/add_link.webm" width="375" alt="ModalBottomSheet" style="margin-right: 30px;" />
-</div>
+[![Demo CountPages alpha](./docs/assets/result_captures/add_link.webm)]

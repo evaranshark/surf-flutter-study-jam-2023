@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:surf_flutter_study_jam_2023/features/ticket_storage/config.dart';
 import 'package:surf_flutter_study_jam_2023/features/ticket_storage/ticket_storage_page.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await TicketStorageConfig().init();
   runApp(const MyApp());
 }
 
@@ -13,7 +16,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        useMaterial3: true,
+        colorSchemeSeed: Colors.deepPurple,
       ),
       home: const TicketStoragePage(),
     );

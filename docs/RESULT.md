@@ -23,4 +23,4 @@
 # Ссылки на демонстрацию работы/скриншоты
 > Захват шёл с эмулятора, поэтому есть фризы и визуальные лаги
 
-[Add new link](./assets/result_captures/add_link.webm)
+[add_link.webm](https://user-images.githubusercontent.com/12038961/230799327-4826c7ed-9d66-4d14-bbc1-cb8aadf35f41.webm)

@@ -23,4 +23,4 @@
 # Ссылки на демонстрацию работы/скриншоты
 > Захват шёл с эмулятора, поэтому есть фризы и визуальные лаги
 
-[![Demo CountPages alpha](docs/assets/result_captures/add_link.webm)]
+[![Demo CountPages alpha](./assets/result_captures/add_link.webm)]
